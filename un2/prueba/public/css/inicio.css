@@ -1,0 +1,114 @@
+/* Fondo con gradiente en tonos de azul y morado */
+body {
+    background-color: #08AEEA;
+background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+    font-family: 'Arial', sans-serif;
+}
+
+/* Título */
+h3 {
+    font-size: 3rem;
+    color: #ffffff; /* Blanco para destacar */
+    text-align: center;
+}
+
+/* Texto de correo */
+p {
+    text-align: center;
+    color: #3c3c3c; /* Gris oscuro */
+    font-size: 1.8rem;
+    text-decoration: underline;
+}
+
+/* Formulario */
+form {
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #08AEEA;
+background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Icono del input */
+.input-group-text {
+    background-color: #069544; /* Rosa vibrante */
+    color: #ffffff;
+}
+
+/* Tabla */
+.table {
+    width: 80%;
+    margin-left: 200px;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #4b0082; /* Bordes morado oscuro */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Celdas de la tabla */
+.table th, .table td {
+    padding: 10px;
+    text-align: center;
+    font-size: 1rem;
+    color: #4b0082; /* Morado oscuro */
+    border-bottom: 1px solid #4b0082;
+}
+
+.table thead {
+    background-color: #6a00ff; /* Morado intenso */
+    color: white;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: rgba(255, 182, 193, 0.3); /* Rosa claro para filas pares */
+}
+
+.table tbody tr:hover {
+    background-color: rgba(255, 182, 193, 0.5); /* Rosa claro al pasar el mouse */
+}
+
+/* Botones de acción */
+.action-btn {
+    padding: 8px 12px;
+    background-color: #ff0088; /* Rosa vibrante */
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.action-btn:hover {
+    background-color: #4b0082; /* Morado oscuro al pasar el mouse */
+}
+
+/* Botón de registrar producto */
+.registrar_producto {
+    background-color:#069544 ; 
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 1.2rem;
+    transition: transform 0.3s ease;
+}
+
+.registrar_producto:hover {
+    transform: scale(1.05);
+}
+
+/* Contenido del modal */
+.modal-content {
+    background-color: rgba(160, 255, 146, 0.8); /* Morado semitransparente */
+    border-radius: 10px;
+}
+
+.modal-header {
+    background-color: #1e7600; /* Morado oscuro */
+    color: white;
+}
+
+.modal-footer {
+    border-top: none;
+}
